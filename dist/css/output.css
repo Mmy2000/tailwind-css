@@ -1501,6 +1501,10 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:col-span-12 {
+    grid-column: span 12 / span 12;
+  }
+
   .md\:m-0 {
     margin: 0px;
   }
@@ -1523,12 +1527,24 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-span-7 {
+    grid-column: span 7 / span 7;
+  }
+
+  .lg\:col-span-5 {
+    grid-column: span 5 / span 5;
+  }
+
   .lg\:grid {
     display: grid;
   }
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 }
 
