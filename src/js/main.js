@@ -2,6 +2,7 @@ let toggleBtn = document.querySelector('.toggle')
 let theme = localStorage.getItem('theme')
 if (theme == "dark") {
     document.documentElement.classList.add('dark')
+    toggleBtn.setAttribute('checked' , true)
 }
 toggleBtn.addEventListener('change' , ()=>{
     if (theme == "light") {
