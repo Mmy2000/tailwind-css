@@ -1684,6 +1684,11 @@ html {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -1916,6 +1921,20 @@ html {
 
 .dark\:left-1\/2:is(.dark *) {
   left: 50%;
+}
+
+.dark\:border-none:is(.dark *) {
+  border-style: none;
+}
+
+.dark\:border-gray-200:is(.dark *) {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.dark\:border-gray-400:is(.dark *) {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .dark\:bg-gray-800:is(.dark *) {
