@@ -1818,6 +1818,10 @@ html {
   width: 100%;
 }
 
+.dark\:left-1\/2:is(.dark *) {
+  left: 50%;
+}
+
 .dark\:bg-gray-800:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
@@ -1846,6 +1850,15 @@ html {
 .dark\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark\:text-gray-400:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.dark\:text-opacity-25:is(.dark *) {
+  --tw-text-opacity: 0.25;
 }
 
 .dark\:before\:bg-white:is(.dark *)::before {
